@@ -1,8 +1,7 @@
 {
     "talkAroundRange": 1500,
-    "betaServerGroups": [""],
-    "dispatchServerGroups": [""],
-    "dispatchAdvancedServerGroups": ["", ""],
+    "rto_identifiers": ["*"],
+    "dispatchServerGroupIdentifiers": ["Dispatcher"],
     "dispatchNameTags": [
         "[P]",
         "[S]",
