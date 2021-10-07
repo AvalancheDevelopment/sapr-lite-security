@@ -1,0 +1,89 @@
+{
+    "talkAroundRange": 1500,
+    "betaServerGroups": [""],
+    "dispatchServerGroups": [""],
+    "dispatchAdvancedServerGroups": ["", ""],
+    "dispatchNameTags": [
+        "[P]",
+        "[S]",
+        "[T]",
+        "[FIRE]",
+        "[TAC]",
+        "[911]",
+        "[QA]",
+        "[SA]",
+        "[EVAL]",
+        "[LEO]",
+        "(P)",
+        "(S)",
+        "(T)",
+        "(FIRE)",
+        "(TAC)",
+        "(911)",
+        "(QA)",
+        "(SA)",
+        "(EVAL)",
+        "(LEO)"
+    ],
+    "radioChannels": [
+        {
+            "id": 1,
+            "name": "Patrol Ops",
+            "soundName": "Ch_SWDispatch",
+            "type": "LEO",
+            "coloredName": "[color=green]Patrol Ops[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 2,
+            "name": "Fire Ops",
+            "soundName": "Ch_FireOps",
+            "type": "LEO",
+            "coloredName": "[color=yellow]Fire Ops[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 3,
+            "name": "Tac 1",
+            "soundName": "Ch_Tac1",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 4,
+            "name": "Tac 2",
+            "soundName": "Ch_Tac2",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 2[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        }
+    ],
+    "time_settings": {
+        "emergencyOverridePeriod": 10,
+        "emergencyCooldown": 5,
+        "emergencyOtherCooldown": 1,
+        "dispatchToneCooldown": 1,
+        "radioStunCooldown": 5,
+        "radioPingCooldown": 10,
+        "911Cooldown": 2,
+        "commandStunPeriod": 300,
+        "toneWaitTalkPeriod": 5
+    }
+}
